@@ -1,0 +1,146 @@
+h3 {
+    background-color: lightgreen;
+    
+  }
+  h1 {
+    color: purple;
+  }
+  h2 {
+    font-size: large;
+    font-style: italic;
+  }
+  * {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  p.allign {
+    color: white;
+    background-color: black;
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+  }
+  div > a {
+    text-decoration-style: dashed;
+    color: black;
+  }
+  #border {
+    border: 5px green solid;
+    border-radius: 30px;
+  }
+  img:hover {
+    filter: blur(6px);
+  }
+  ul {
+    list-style-type: square;
+    padding: 20px;
+  }
+  ol {
+    list-style-type: lower-alpha;
+  }
+  :not(table) {
+    font-variant: small-caps;
+  }
+  #design {
+    border-collapse: collapse;
+    width: 76%;
+  }
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+  tr:hover {
+    background-color: rgb(239, 243, 10);
+  }
+  th {
+    background-color: #4c9de9;
+    color: white;
+  }
+  a:visited {
+    background-color: rgb(225, 0, 255);
+  }
+  
+  a:hover {
+    background-color: rgb(255, 0, 64);
+  }
+  
+  a:active {
+    background-color: rgb(7, 64, 252);
+  }
+  input[type="text"] {
+    background-color: #3cbc8d;
+    color: white;
+  }
+  input[type="email"] {
+    border: 2px solid red;
+    border-radius: 4px;
+  }
+  input[type="password"] {
+    border: 2px solid red;
+    border-radius: 4px;
+  }
+  select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+  }
+  .container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    user-select: none;
+  }
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  .container input:checked ~ .checkmark {
+    background-color: #2196f3;
+  }
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  a[target="_blank"] {
+    background-color: yellow;
+  }
+  p::first-letter {
+    font-size: large;
+    color: palevioletred;
+  }
+  input:read-only {
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+  }
+  :root {
+    padding-right: 15px;
+    padding-left: 15px;
+    border: 6px solid black;
+  }
+  :fullscreen {
+    background-color: yellow;
+  }
+  
